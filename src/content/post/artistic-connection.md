@@ -1,8 +1,8 @@
 ---
 title: "Artistic Connection"
-description: "Why do you love that movie?"
+description: "Just some thoughts about connecting with art, movies, and others"
 publishDate: "28 Oct 2024"
-tags: ["thought"]
+tags: ["Thought"]
 ---
 
 ## Artistic Connection
