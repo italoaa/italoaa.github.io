@@ -3,6 +3,7 @@ title: "Artistic Connection"
 description: "Just some thoughts about connecting with art, movies, and others"
 publishDate: "28 Oct 2024"
 tags: ["Thought"]
+draft: true
 ---
 
 ## Artistic Connection
