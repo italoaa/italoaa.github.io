@@ -1,9 +1,9 @@
 ---
 title: "LLMs as therapists"
-description: "How surprisingly helpful LLMs can be as a therapist"
-publishDate: "7 Dec 2024"
+description: "Some interesting properties that make LLMs helpful as therapists"
+publishDate: "7 May 2025"
 tags: ["Thought"]
-draft: true
+draft: false
 ---
 
 # disclaimer
