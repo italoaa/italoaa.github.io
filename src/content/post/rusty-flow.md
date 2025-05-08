@@ -10,9 +10,9 @@ draft: false
 This project aims to replicate the Pytorch's api for tensor operations and auto differentiation
 
 # Experience
-This project was initially motivated by [[https://www.youtube.com/andrejkarpathy][Andrej Karpathy]] video on back-propagation, where he built a auto differentiation project but for single values. Using this as a basis I thought that extending this to tensors would be straight forward but .... it wasn't as easy as I though (as always).
+This project was initially motivated by [Andrej Karpathy](https://www.youtube.com/andrejkarpathy) video on back-propagation, where he built a auto differentiation project but for single values. Using this as a basis I thought that extending this to tensors would be straight forward but .... it wasn't as easy as I though (as always).
 
-The full code project was divided on the Tensor Operations and the Auto Differentiation of these operations. Implementing the initial parts of the library was quite simple following [[https://blog.ezyang.com/2019/05/pytorch-internals/][Edward Z. Yang]] blog post on PyTorch internals i mimicked their methodologies. These mainly included storing the tensor as a flat array and having the values of its shape and strides separately.
+The full code project was divided on the Tensor Operations and the Auto Differentiation of these operations. Implementing the initial parts of the library was quite simple following [Edward Z. Yang](https://blog.ezyang.com/2019/05/pytorch-internals/) blog post on PyTorch internals i mimicked their methodologies. These mainly included storing the tensor as a flat array and having the values of its shape and strides separately.
 
 After building the foundation, (operations add, subtract, etc. and their backwards versions), the next challenge was broadcasting. Broadcasting in PyTorch, allows for tensors of different shapes to be used in operations together. This is a powerful abstraction, as it allows you to do the following:
 ```python

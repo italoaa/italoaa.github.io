@@ -10,7 +10,7 @@ draft: false
 The idea for the project was to dive into the basics of GPU programming by building a MLP in CUDA!
 
 # Experience
-I was initially motivated to do this by [[https://www.youtube.com/@szymonozog7862][Simon Oz]] youtube playlist on GPU programming. I wanted to apply what I was learning and thought to follow his steps and build an MLP.
+I was initially motivated to do this by [Simon Oz](https://www.youtube.com/@szymonozog7862) youtube playlist on GPU programming. I wanted to apply what I was learning and thought to follow his steps and build an MLP.
 
 At the start I was just getting used to the way CUDA works and how kernels are used. This was the first time I had touched any GPU programming projects so this part took a while. I specially struggled with the way multidimensional indices are flattened. 
 
@@ -34,6 +34,6 @@ __global__ void forward(int bs, int n, int out_w,
 
 The kernel above indexes into the data with the row and column variables turning them into flat indices. This was the hardest part to get used to as I had to deconstruct my mental model of multidimensional arrays, and replace it with flat ones and flat indices.
 
-To solidify this I have actually built a Tensor library that forced me to practice this called [[https://github.com/italoaa/Rusty-Flow][Rusty Flow]] although it is not in cuda all cpu.
+To solidify this I have actually built a Tensor library that forced me to practice this called [Rusty Flow](https://github.com/italoaa/Rusty-Flow) although it is not in cuda all cpu.
 
 I am very happy to peel of the layers in machine learning and look into how things work at a deeper level.
