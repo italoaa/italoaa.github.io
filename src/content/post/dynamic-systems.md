@@ -3,7 +3,7 @@ title: "Dynamic Systems"
 description: "Looking into dynamic systems, and being a bit weird in the connections I make"
 publishDate: "16 November 2025"
 tags: ["Thoughts"]
-draft: false
+draft: true
 ---
 > [!NOTE]
 > This is not a polished post but a simple illustration of connections I find interesting.
